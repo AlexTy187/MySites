@@ -1,0 +1,84 @@
+{
+    "staffDirectory": [
+      {
+        "staffNumber": "001",
+        "firstName": "Alex",
+        "lastName": "Sello",
+        "jobDescription": "Owner/Founder",
+        "workPhoneNumber": "072 078 6569",
+        "workEmail": "atsello4@gmail.com"
+      },
+      {
+        "staffNumber": "002",
+          "firstName": "Shantel",
+          "lastName": "Ndongeni",
+          "jobDescription": "COO",
+          "workPhoneNumber": "061 455 5171",
+          "workEmail": "shantitifanny@gmail.com"
+        },
+        {
+            "staffNumber": "003",
+            "firstName": "Emily",
+            "lastName": "Davis",
+            "jobDescription": "Front-end Designer",
+            "workPhone": "234-567-8901",
+            "workEmail": "emily.davis@gmail.com"
+        },
+        {
+            "staffNumber": "004",
+            "firstName": "Michael",
+            "lastName": "Brown",
+            "jobDescription": "Back-end Developer",
+            "workPhone": "345-678-9012",
+            "workEmail": "michael.brown@gmail.com"
+        },
+        {
+            "staffNumber": "005",
+            "firstName": "Sophia",
+            "lastName": "Wilson",
+            "jobDescription": "UI/UX Designer",
+            "workPhone": "456-789-0123",
+            "workEmail": "sophia.wilson@gmail.com"
+        },
+        {
+            "staffNumber": "006",
+            "firstName": "Liam",
+            "lastName": "Johnson",
+            "jobDescription": "SEO Specialist",
+            "workPhone": "567-890-1234",
+            "workEmail": "liam.johnson@gmail.com"
+        },
+        {
+            "staffNumber": "007",
+            "firstName": "Olivia",
+            "lastName": "Martinez",
+            "jobDescription": "Graphic Designer",
+            "workPhone": "678-901-2345",
+            "workEmail": "olivia.martinez@gmail.com"
+        },
+        {
+            "staffNumber": "008",
+            "firstName": "Noah",
+            "lastName": "Garcia",
+            "jobDescription": "Content Writer",
+            "workPhone": "789-012-3456",
+            "workEmail": "noah.garcia@gmail.com"
+        },
+        {
+            "staffNumber": "009",
+            "firstName": "Ava",
+            "lastName": "Lee",
+            "jobDescription": "Project Coordinator",
+            "workPhone": "890-123-4567",
+            "workEmail": "ava.lee@gmail.com"
+        },
+        {
+            "staffNumber": "010",
+            "firstName": "James",
+            "lastName": "Anderson",
+            "jobDescription": "Quality Assurance Tester",
+            "workPhone": "901-234-5678",
+            "workEmail": "james.anderson@gmail.com"
+        }
+    ]
+}

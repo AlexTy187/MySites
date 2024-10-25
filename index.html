@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!--end of font links-->
+
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+    <script src="staff.js"></script>
+    <title>Home</title>
+</head>
+<body class="quicksand-font ">
+
+    <header class="row">
+
+        <video id="headerVideo" autoplay muted>
+            <source src="Cry-darkmode.mp4" type="video/mp4">
+        </video>
+        <div class="crysites-text">
+            <img src="heroheaderimg.jpg" alt="" srcset="">
+        </div>
+
+        <div id="left">
+            <div class="crysites-text">
+                <div id="mySidenav" class="sidenav">
+                    <a class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="team.html">Meet the team</a>
+                    <a href="contacts.html">Contacts</a>
+                    <br><hr><br>
+                    <p class="exo-2" style="color: whitesmoke;">Crysites</p><br>
+                </div>
+                <span class="hamburgerbtn" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+        <div id="center"></div>
+        <div id="right">
+            <label class="switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+    
+    <nav id="navbar" class="row">
+        <a href="index.html">Home</a>&nbsp;&VerticalLine;
+        <a href="about.html">About</a>&nbsp;&VerticalLine;
+        <a href="team.html">Meet the team</a>&nbsp;&VerticalLine;
+        <a href="contacts.html">Contacts</a>
+        <br>
+    </nav>
+
+    <div class="container" id="intro" style="border: none;">
+        <div class="row">
+            <div class="column-99">
+                <h2>Crysites - Where Creativity Meets Functionality</h2><hr style="max-width: 25%;">
+                <br>
+                <p>At Crysites, we believe every business deserves a website that reflects its unique identity.</p>
+                <p>Our team of creative designers and developers work closely with clients to build websites that don’t just look great</p>
+                <p> but also deliver results.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="techspec">
+        <div class="row">
+            <div class="column-66">
+                <img id="cssicon" src="css.png" alt="">&nbsp;&nbsp;
+                <img id="htmlicon" src="html.png" alt="" srcset="">&nbsp;&nbsp;
+                <img id="jsicon" src="javaScript.png" alt="" srcset="">&nbsp;&nbsp;
+                <img id="jsonicon" src="json.png" alt="">&nbsp;&nbsp;
+                <img id="bsicon" src="boot.png" alt="" srcset="">&nbsp;&nbsp;
+                <img id="reacticon" src="physics.png" alt="" srcset="">&nbsp;&nbsp;
+                <img id="sqlicon" src="sql.png" alt="" srcset="">
+
+            </div>
+            <div class="column-33">
+                <h2>Tools</h2><hr style="max-width: 40%;"><br>
+                <p>Crysites leverages modern web development technologies including HTML5, CSS3, JavaScript, and React for creating dynamic and responsive user interfaces. The platform integrates JSON for efficient data handling and utilizes Bootstrap to ensure mobile-friendly, visually appealing layouts.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container" id="services">
+        <div class="row">
+
+            <h2>Services</h2>
+            <div id="left">
+                <h2>Design & develop</h2><hr style="max-width: 40%;"><br>
+                <p>Responsive Web Design: Crafting visually appealing websites that adapt seamlessly to any device, ensuring a consistent user experience across desktops, tablets, and smartphones.</p>
+            </div>
+            <div id="center">
+                <h2>Custom Website Development</h2><hr style="max-width: 40%;"><br>
+                <p>Building tailored websites that meet your unique business needs, using modern frameworks and technologies like HTML5, CSS3, JavaScript, and React.</p>
+            </div>
+            <div id="right">
+                <h2>User Experience (UX) Design</h2><hr style="max-width: 40%;"><br>
+                <p>Designing intuitive user interfaces that focus on ease of navigation and user satisfaction, creating engaging and user-friendly digital experiences.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="left">
+                <h2>Website Optimization</h2><hr style="max-width: 40%;"><br>
+                <p>Ensuring fast loading times and optimized performance, providing a smooth browsing experience for your audience.</p>
+            </div>
+            <div id="center">
+                <i class="fa fa-globe" style="size: 1.2em;"></i>
+            </div>
+            <div id="right">
+                <h2>Maintenance & Support</h2><hr style="max-width: 40%;"><br>
+                <p>Offering ongoing support and updates to keep your website secure and up-to-date with the latest trends and features</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="btncontainer">
+        <div class="row">
+            <div id="left">
+                <button class="button-ghost">Get Started</button>
+            </div>
+            <div id="center">
+                <button class="button-ghost">Reviews</button>
+            </div>
+            <div id="right">
+                <button class="button-ghost">Our work</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="form">
+        <div class="row">
+            <h2>Enquire</h2><hr style="max-width: 20%;"><br>
+        <div class="formcontainer">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">South Africa</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="row footer">
+            <div id="left"></div>
+            <div id="center">
+                <p>Crysites</p><br>
+                <i class="fa fa-instagram"></i>&nbsp;<span class="vertical-separator">&VerticalLine;</span>&nbsp;
+                <i class="fa fa-google"></i>&nbsp;<span class="vertical-separator">&VerticalLine;</span>&nbsp;
+                <i class="fa fa-twitter"></i>&nbsp;<span class="vertical-separator">&VerticalLine;</span>&nbsp;
+                <i class="fa fa-whatsapp"></i>&nbsp;<span class="vertical-separator">&VerticalLine;</span>&nbsp;
+                <i class="fa fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>
